@@ -68,3 +68,7 @@ def play_game(word_list):
             break
 
 play_game(["Mango", "Strawberry", "Peach", "Pumpkin", "Chocolate"])
+
+if __name__ == '__main__':
+    word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
+    play_game(word_list)
