@@ -1,10 +1,13 @@
 # Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts and I am really good at designing it for use on the command line.
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it... perfected by yours truly.
+
 ## As of Milestone 3
-The file milestone_3 returns a list of 5 pre-selected fruit and chooses one from random. 
+The file milestone_3 returns a list of 5 pre-selected fruit and chooses one from random.
+
 It asks the user to guess a letter and tells them whether this is in the name of the fruit or not (it is not case-sensitive).
+
 Each time it selects a different kind of fruit. This will be changed.
 
 ## As of Milestone 4
@@ -15,3 +18,6 @@ The function initializes with a list of words and a number of lives. It chooses 
 One of these methods runs indefinitely (needs to be modified) and asks the user to guess the letters in the word. This calls the other method, which checks whether the choice is valid.
 
 The program runs indefinitely, even if every possible letter has been entered.
+
+## As of Milestone 5
+Corrected two problems when running: the infinite loop in ask_for_input; and the inability for check_guess to cope with recurring letters. Pristine.
